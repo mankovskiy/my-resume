@@ -6,8 +6,6 @@ themeBtn.addEventListener("click", onThemeToggle);
 
 hamburgerMenu.addEventListener("click", onClickHamburgerMenu);
 
-mobileNavMenu.addEventListener("click", onShowMobileMenu);
-
 function onThemeToggle() {
   themeBtn.classList.toggle("theme-btn--active");
 }
