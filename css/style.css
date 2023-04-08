@@ -23,7 +23,7 @@ font-family: 'Poppins', sans-serif; */
   /* darkTheme */
 }
 
-.dark-theme {
+.dark {
   --section-title: var(--white-color);
   --bcg-color: var(--dark-theme-bg-color);
   --title-color: var(--white-color);
@@ -36,6 +36,7 @@ body {
   letter-spacing: -0.5px;
   background-color: var(--bcg-color);
   color: var(--text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container {
   margin: 0 auto;
@@ -291,7 +292,7 @@ body {
 .section-title__text {
   display: block;
   margin: 0 auto;
-  width: 571px;
+  max-width: 571px;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
